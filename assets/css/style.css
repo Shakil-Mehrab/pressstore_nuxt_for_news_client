@@ -1,0 +1,7 @@
+.img_hover_effect:hover{
+  opacity: 0.8;
+  transition: opacity 0.4s ease-in-out 0s;
+}
+.margint_from_top{
+  margin-top: 14rem;
+}
