@@ -1,8 +1,8 @@
 <template>
   <div class="bg-background-400 text-white">
-    <div class="container mx-auto">
-     <div class="flex">
-      <div class="w-1/3">
+    <!-- <div class="container mx-auto">
+     <div class="flex flex-wrap">
+      <div class="w-1/2 sm:w-1/3">
         <div class="text-xl  px-4 py-2 border-l-4 border-bordercolor-200 mt-16 bg-background-600 mx-4">About PressRoom</div>
         <p class="text-sm mt-5 mx-4">
           গত ১০ দিনে ভারতজুড়ে লাখ লাখ পাখির মৃত্যু হয়েছে। অনেক এলাকায় হাঁস-মুরগী, কাক ও অতিথি পাখির মরদেহে বার্ড ফ্লু শনাক্তের পর ছড়িয়ে পড়েছে আতঙ্ক।
@@ -23,16 +23,16 @@
         <div class="text-xl px-4 py-2 border-l-4 border-bordercolor-200 mt-16 bg-background-600 mx-4">Get In Touch With Us</div>
         <div class="mt-5">
           <ul class="flex justify-between mx-4">
-            <li v-for="n in 7" :key="n" class="text-2xl px-2"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            <li v-for="n in 5" :key="n" class="text-2xl px-2"><a href=""><i class="fab fa-facebook-square"></i></a></li>
           </ul>
         </div>
       </div >
-      <div class="w-1/3">
+      <div class="w-full sm:w-1/3 order-3 sm:order-2">
         <div class="text-xl  px-4 py-2 border-l-4 border-bordercolor-200 mt-16 bg-background-600 mx-4">
           Get In Touch With Us
         </div>
           <ul class="">
-            <li class="mt-10 px-4 flex items-center sm:block" v-for="n in 3" :key="n">
+            <li class="mt-10 px-4 flex items-center sm:block" v-for="n in 2" :key="n">
               <a href="" class="w-32 h-20">
                 <img src="http://quanticalabs.com/Pressroom/Template/images/samples/510x187/image_12.jpg" class="w-full img_hover_effect h-full object-cover object-center" alt="dsfvd">
               </a>
@@ -50,7 +50,7 @@
             </li>
           </ul>
       </div >
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3 order-2 sm:order-3">
         <div class="text-xl  px-4 py-2 border-l-4 border-bordercolor-200 mt-16 bg-background-600 mx-4">Get In Touch With Us</div>
         <ul class="">
           <li class="px-4 mt-10">
@@ -83,6 +83,6 @@
         </ul>
       </div>
      </div>
-    </div>
+    </div> -->
   </div>
 </template>

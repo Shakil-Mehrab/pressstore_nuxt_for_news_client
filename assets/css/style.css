@@ -5,3 +5,14 @@
 .margint_from_top{
   margin-top: 14rem;
 }
+.header_background{
+  background: linear-gradient(180deg,#0f6a39 64px,#fff 0,white 80%);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.6);
+}
+.margin_left{
+  margin-left: -100%;
+}
+/* .social_icon{
+  margin: 5px;
+  background: url('~assets/social.jpg');
+} */

@@ -23,14 +23,19 @@ module.exports = {
           200: '#b9b9b9',
           300: '#718096',
           400: '#336699',
-          500: '#25282A'
+          500: '#25282A',
+          600: '#45ed97',//nav color
+          700: '#333',//header low color
         },
         background:{
           100: '#e7e7e7',//body background
           200: '#F0F0F0', //Latest post background
           300: '#094470',//photo gallery
-          400: '#363B40',//footer background
-          600:  '#42494F',//footer heading background
+          400: '#262525',//footer background
+          600: '#42494F',//footer heading background
+          700: '#95b8a5',//search background
+          800: '#ededed',//nav background
+          900: '#f3f3f3',//mobilemenu background
         },
         customborder:{
           100: '#ddd',
@@ -38,7 +43,8 @@ module.exports = {
         },
         bordercolor:{
           100: '#de1f26',
-          200: '#858D94'
+          200: '#858D94',
+          300: '#064e22'//search border
         }
       },
       fontFamily: {
@@ -59,6 +65,7 @@ module.exports = {
     extend: {
       opacity: ['responsive', 'group-hover', 'hover', 'focus', 'disabled'],
       borderWidth: ['last'],
+      transitionProperty: ['responsive', 'motion-safe', 'motion-reduce']
     }
   },
   // plugins: [require("@tailwindcss/forms")],
